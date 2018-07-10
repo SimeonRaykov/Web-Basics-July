@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SumNumbers</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script>
+        function sum() {
+            let num1=Number(document.getElementById("num1").value);
+            let num2=Number(document.getElementById("num2").value);
+
+            let result=document.getElementById("result");
+            let resultUnRounded= result.innerHTML = num1*num2;
+            resultRounded=result.innerHTML=Math.round(result.innerHTML*100)/100;
+        }
+    </script>
+    <link rel="stylesheet" href="MultiplyNumbers.css">
+
+</head>
+<body>
+<form>
+    <div class="text">
+    <div class="numbersStyle">First Number:</div>
+    <div><input type="number" id="num1"></div>
+    <div class="numbersStyle">Second Number:</div>
+    <div><input type="number" id="num2"></div>
+
+    <div class="numbersStyle"><input type="button" value="Multiply Numbers" onclick="sum()"></div>
+    <div class="numbersStyle">Result: <span id="result"></span></div>
+    </div>
+
+    <div class="mathImage">
+        <img  class="resize" src="images/Math-Mania-math-31107557-2288-1617.jpg" alt="">
+    </div>
+</form>
+<div class="footer">
+<footer>
+    <p>Made by: Simeon Raykov</p>
+</footer>
+</div>
+
+
+</body>
+</html>

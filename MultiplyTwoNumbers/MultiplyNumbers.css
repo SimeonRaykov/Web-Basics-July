@@ -1,0 +1,26 @@
+body {
+    background-color: lightblue;
+}
+.numbersStyle{
+    font-style:italic;: 100%px;
+}
+.resize{
+    width: 105%;
+    height: auto;
+}
+
+.text{
+    float: left;
+    width: 65%;
+}
+.mathImage{
+    float: right;
+    width: 35%;
+}
+.footer {
+    position:fixed;bottom:0;
+
+    width:89%;
+    text-align: right;
+    display:block;
+}
